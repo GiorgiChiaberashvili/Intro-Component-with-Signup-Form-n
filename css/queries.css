@@ -1,6 +1,6 @@
 @media(max-width: 768px) {
     body {
-        background: url('./images/bg-intro-mobile.png');
+        background: url('../images/bg-intro-mobile.png');
         background-color: var(--Red);
     }
 
