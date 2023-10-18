@@ -16,7 +16,8 @@ form.addEventListener('submit', (e) => {
             emailInput.parentElement.classList.add('error')
         } else {
             input.parentElement.classList.remove('error');
-
+             input.style.border = '1px solid grey';
+             input.value = '';
 
             // if (input.type == 'email') {
             //     if ((input.value)) {
