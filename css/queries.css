@@ -1,0 +1,33 @@
+@media(max-width: 768px) {
+    body {
+        background: url('./images/bg-intro-mobile.png');
+        background-color: var(--Red);
+    }
+
+    .main-container {
+        flex-direction: column;
+        padding: 0 3rem;
+        margin: 3rem auto;
+    }
+
+    .main-left,
+    .main-right {
+        max-width: 100%;
+    }
+
+    .main-left {
+        text-align: center;
+    }
+
+    .main-left h1 {
+        font-size: 3.5rem;
+    }
+
+    .main-left p {
+        text-align: center;
+    }
+
+    .free-trial {
+        font-size: 1.8rem;
+    }
+}
